@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+	<meta charset=utf-8>
+	<title>Ejercicio de formularios </title>
+	<meta name="author" content="Hugo Montes Marquez">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="keywords" content="plataforma, ccs, xml, movil, estudio, html">
+</head>
+<body>
+	<form autocomplete="on" name="mi primer formulario" cellpadding="50" width="75" > 
+		<fieldset> 
+			<H1>Registro en nuestra tienda</H1>
+			<p>
+				<label for="Nombre"><strong>Nombre de usuario</strong></label> </br>
+				<input type="text" id="Nombre" placeholder="Ej.Luis"value="" maxlentgh="20" cols="30" required> 
+			</p>
+			<p>
+				<label for="correo"> <strong>Email:</strong> </label maxlentgh="20"> </br>
+				<input type="email" id="Apellido" placeholder="Ej. luis@gmail.com" required>
+			</p>
+				<label for="Edad"><strong>Edad:</strong> </label> </br>
+				<input type="number" value="18"  min="18"  max="120" placeholder="Ej.21" maxlentgh="20 required">
+			</p>
+			</>
+				<label for="Genero">Genero: </label> 
+				<b>1 Masculino</b><input type="radio" name="Genero"</input>
+				<b>2 Femenino</b><input type="radio" name="Genero"</input>
+			</p>
+			<p>
+			<label for="Recomendado"><strong>Recomendado por:</strong></label> </br>
+						<select>
+				<option>Google</option>
+				<option>Amigo </option>
+				<option>Redes Sociales </option>
+			</select>
+			</p> 
+			<p>
+				<label for="areaTx1"><strong>Comentarios:</strong> </label> </br>
+				<textarea name="areaTx1" rows="4" cols="30"></textarea>
+			</p> 
+				<label for="Termino"><strong>Acepta terminos y condiciones:</strong> </label> </br>
+							<input type="checkbox" id="Termino">
+			</p> 
+			<p>
+				<input type="submit" id="Registar">
+			</p>
+
+			
+		</fieldset>
+	</form>
+</body>
+</html>
